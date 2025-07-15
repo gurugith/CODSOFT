@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    #about img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+      color: #333;
+    }
+
+    ul.skills {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    ul.skills li {
+      background: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .project {
+      background: #fff;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .project img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .resume a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .contact p {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>John Doe</h1>
+    <p>Web Developer | Designer | Tech Enthusiast</p>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <img src="https://via.placeholder.com/150" alt="Your photo">
+    <p>Hello! I'm John, a passionate web developer with experience in creating responsive and user-friendly websites. I love turning ideas into beautiful digital experiences.</p>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Git & GitHub</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project">
+      <h3>Project One</h3>
+      <img src="https://via.placeholder.com/600x300" alt="Project 1">
+      <p>This is a sample description of my first project. It demonstrates my skills in front-end development and responsive design.</p>
+    </div>
+    <div class="project">
+      <h3>Project Two</h3>
+      <img src="https://via.placeholder.com/600x300" alt="Project 2">
+      <p>This is another project that showcases my ability to build dynamic web applications using JavaScript and React.</p>
+    </div>
+  </section>
+
+  <section id="resume" class="resume">
+    <h2 class="section-title">Resume</h2>
+    <p>You can download my resume below:</p>
+    <a href="resume.pdf" download>Download Resume (PDF)</a>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: johndoe@example.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 John Doe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
